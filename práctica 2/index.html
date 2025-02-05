@@ -1,0 +1,1741 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mydomain.org/mysite/pr%C3%A1ctica%202/">
+      
+      
+        <link rel="prev" href="../pr%C3%A1ctica%201/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.2">
+    
+    
+      
+        <title>Segunda parte de la práctica - My site</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.d7758b05.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#segunda-parte-de-la-practica" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My site" class="md-header__button md-logo" aria-label="My site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My site
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Segunda parte de la práctica
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My site" class="md-nav__button md-logo" aria-label="My site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My site
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Práctica 5.1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pr%C3%A1ctica%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Primera parte de la práctica
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Segunda parte de la práctica
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Segunda parte de la práctica
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creacion-y-actualizacion-de-un-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creación y actualización de un repositorio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creación y actualización de un repositorio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configurar-git-definiendo-el-nombre-del-usuario-el-correo-electronico-y-activar-el-coloreado-de-la-salida" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de la salida.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-un-repositorio-nuevo-con-el-nombre-libro-y-mostrar-su-contenido" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear un repositorio nuevo con el nombre libro y mostrar su contenido.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comprobar-el-estado-del-repositorio-crear-un-fichero-indicetxt-con-el-siguiente-contenido-capitulo-1-introduccion-a-git-capitulo-2-flujo-de-trabajo-basico-capitulo-3-repositorios-remotos-comprobar-de-nuevo-el-estado-del-repositorio-anadir-el-fichero-a-la-zona-de-intercambio-temporal-volver-a-comprobar-una-vez-mas-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comprobar el estado del repositorio. Crear un fichero indice.txt con el siguiente contenido: Capítulo 1: Introducción a Git Capítulo 2: Flujo de trabajo básico Capítulo 3: Repositorios remotos. Comprobar de nuevo el estado del repositorio. Añadir el fichero a la zona de intercambio temporal. Volver a comprobar una vez más el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#realizar-un-commit-de-los-ultimos-cambios-con-el-mensaje-anadido-indice-del-libro-y-ver-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Realizar un commit de los últimos cambios con el mensaje “Añadido índice del libro.” y ver el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 5
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cambiar-el-fichero-indicetxt-para-que-contenga-lo-siguiente-capitulo-1-introduccion-a-git-capitulo-2-flujo-de-trabajo-basico-capitulo-3-gestion-de-ramas-capitulo-4-repositorios-remotos-mostrar-los-cambios-con-respecto-a-la-ultima-version-guardada-en-el-repositorio-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-3-sobre-gestion-de-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cambiar el fichero indice.txt para que contenga lo siguiente: Capítulo 1: Introducción a Git Capítulo 2: Flujo de trabajo básico Capítulo 3: Gestión de ramas Capítulo 4: Repositorios remotos. Mostrar los cambios con respecto a la última versión guardada en el repositorio. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3 sobre gestión de ramas”.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 6
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mostrar-los-cambios-de-la-ultima-version-del-repositorio-con-respecto-a-la-anterior-cambiar-el-mensaje-del-ultimo-commit-por-anadido-capitulo-3-sobre-gestion-de-ramas-al-indice-volver-a-mostrar-los-ultimos-cambios-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mostrar los cambios de la última versión del repositorio con respecto a la anterior. Cambiar el mensaje del último commit por “Añadido capítulo 3 sobre gestión de ramas al índice.” Volver a mostrar los últimos cambios del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicios-de-manejo-del-historial-de-cambios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicios de manejo del historial de cambios
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicios de manejo del historial de cambios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mostrar-el-historial-de-cambios-del-repositorio-crear-la-carpeta-capitulos-y-crear-dentro-de-ella-el-fichero-capitulo1txt-con-el-siguiente-texto-git-es-un-sistema-de-control-de-versiones-ideado-por-linus-torvalds-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-1-volver-a-mostrar-el-historial-de-cambios-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mostrar el historial de cambios del repositorio. Crear la carpeta capitulos y crear dentro de ella el fichero capitulo1.txt con el siguiente texto: Git es un sistema de control de versiones ideado por Linus Torvalds. Añadir los cambios a la zona de intercambio temporal. Hacer un commit de los cambios con el mensaje “Añadido capítulo 1.” Volver a mostrar el historial de cambios del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-el-fichero-capitulo2txt-en-la-carpeta-capitulos-con-el-siguiente-texto-el-flujo-de-trabajo-basico-con-git-consiste-en-1-hacer-cambios-en-el-repositorio-2-anadir-los-cambios-a-la-zona-de-intercambio-temporal-3-hacer-un-commit-de-los-cambios-anadir-los-cambios-a-la-zona-de-intercambio-temporalhacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-2-mostrar-las-diferencias-entre-la-ultima-version-y-dos-versiones-anteriores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear el fichero capitulo2.txt en la carpeta capitulos con el siguiente texto: El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios. Añadir los cambios a la zona de intercambio temporal.Hacer un commit de los cambios con el mensaje “Añadido capítulo 2.” Mostrar las diferencias entre la última versión y dos versiones anteriores.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-el-fichero-capitulo3txt-en-la-carpeta-capitulos-con-el-siguiente-texto-git-permite-la-creacion-de-ramas-lo-que-permite-tener-distintas-versiones-del-mismo-proyecto-y-trabajar-de-manera-simultanea-en-ellas-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-3-mostrar-las-diferencias-entre-la-primera-y-la-ultima-version-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear el fichero capitulo3.txt en la carpeta capitulos con el siguiente texto: Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas. Añadir los cambios a la zona de intercambio temporal. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3.” Mostrar las diferencias entre la primera y la última versión del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anadir-al-final-del-fichero-indicetxt-la-siguiente-linea-capitulo-5-conceptos-avanzados-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-5-al-indicemostrar-quien-ha-hecho-cambios-sobre-el-fichero-indicetxt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Añadir al final del fichero indice.txt la siguiente línea: Capítulo 5: Conceptos avanzados. Añadir los cambios a la zona de intercambio temporal. Hacer un commit de los cambios con el mensaje “Añadido capítulo 5 al índice.”.Mostrar quién ha hecho cambios sobre el fichero indice.txt.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicicos-de-deshacer-cambios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicicos de deshacer cambios
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicicos de deshacer cambios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-comprobar-el-estado-del-repositorio-deshacer-los-cambios-realizados-en-el-fichero-indicetxt-para-volver-a-la-version-anterior-del-fichero-volver-a-comprobar-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eliminar la última línea del fichero indice.txt y guardarlo. Comprobar el estado del repositorio. Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero. Volver a comprobar el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-anadir-los-cambios-a-la-zona-de-intercambio-temporal-comprobar-de-nuevo-el-estado-del-repositorio-quitar-los-cambios-de-la-zona-de-intercambio-temporal-pero-mantenerlos-en-el-directorio-de-trabajo-comprobar-de-nuevo-el-estado-del-repositorio-deshacer-los-cambios-realizados-en-el-fichero-indicetxt-para-volver-a-la-version-anterior-del-fichero-volver-a-comprobar-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eliminar la última línea del fichero indice.txt y guardarlo. Añadir los cambios a la zona de intercambio temporal. Comprobar de nuevo el estado del repositorio. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo. Comprobar de nuevo el estado del repositorio. Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero. Volver a comprobar el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-eliminar-el-fichero-capituloscapitulo3txt-anadir-un-fichero-nuevo-capituloscapitulo4txt-vacio-anadir-los-cambios-a-la-zona-de-intercambio-temporal-comprobar-de-nuevo-el-estado-del-repositorio-quitar-los-cambios-de-la-zona-de-intercambio-temporal-pero-mantenerlos-en-el-directorio-de-trabajo-comprobar-de-nuevo-el-estado-del-repositorio-deshacer-los-cambios-realizados-para-volver-a-la-version-del-repositorio-volver-a-comprobar-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eliminar la última línea del fichero indice.txt y guardarlo. Eliminar el fichero capitulos/capitulo3.txt. Añadir un fichero nuevo capitulos/capitulo4.txt vacío. Añadir los cambios a la zona de intercambio temporal. Comprobar de nuevo el estado del repositorio. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo. Comprobar de nuevo el estado del repositorio. Deshacer los cambios realizados para volver a la versión del repositorio. Volver a comprobar el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-eliminar-el-fichero-capituloscapitulo3txt-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-borrado-accidental-comprobar-el-historial-del-repositorio-deshacer-el-ultimo-commit-pero-mantener-los-cambios-anteriores-en-el-directorio-de-trabajo-y-la-zona-de-intercambio-temporalcomprobar-el-historial-y-el-estado-del-repositorio-volver-a-hacer-el-commit-con-el-mismo-mensaje-de-antes-deshacer-el-ultimo-commit-y-los-cambios-anteriores-del-directorio-de-trabajo-volviendo-a-la-version-anterior-del-repositorio-comprobar-de-nuevo-el-historial-y-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eliminar la última línea del fichero indice.txt y guardarlo. Eliminar el fichero capitulos/capitulo3.txt. Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Borrado accidental.” Comprobar el historial del repositorio. Deshacer el último commit pero mantener los cambios anteriores en el directorio de trabajo y la zona de intercambio temporal.Comprobar el historial y el estado del repositorio. Volver a hacer el commit con el mismo mensaje de antes. Deshacer el último commit y los cambios anteriores del directorio de trabajo volviendo a la versión anterior del repositorio. Comprobar de nuevo el historial y el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicios-de-gestion-de-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicios de gestión de ramas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicios de gestión de ramas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-una-nueva-rama-bibliografia-y-mostrar-las-ramas-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear una nueva rama bibliografia y mostrar las ramas del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-el-fichero-capituloscapitulo4txt-y-anadir-el-texto-siguiente-en-este-capitulo-veremos-como-usar-github-para-alojar-repositorios-en-remotoanadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadido-capitulo-4-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear el fichero capitulos/capitulo4.txt y añadir el texto siguiente En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadido capítulo 4.” Mostrar la historia del repositorio incluyendo todas las ramas.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cambiar-a-la-rama-bibliografia-crear-el-fichero-bibliografiatxt-y-anadir-la-siguiente-referencia-chacon-s-and-straub-b-pro-git-apress-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadida-primera-referencia-bibliografica-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cambiar a la rama bibliografia. Crear el fichero bibliografia.txt y añadir la siguiente referencia: Chacon, S. and Straub, B. Pro Git. Apress. Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.” Mostrar la historia del repositorio incluyendo todas las ramas.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fusionar-la-rama-bibliografia-con-la-rama-master-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas-eliminar-la-rama-bibliografia-mostrar-de-nuevo-la-historia-del-repositorio-incluyendo-todas-las-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fusionar la rama bibliografia con la rama master. Mostrar la historia del repositorio incluyendo todas las ramas. Eliminar la rama bibliografia. Mostrar de nuevo la historia del repositorio incluyendo todas las ramas.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 5
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-la-rama-bibliografia-cambiar-a-la-rama-bibliografia-cambiar-el-fichero-bibliografiatxt-para-que-contenga-las-siguientes-referencias-scott-chacon-and-ben-straub-pro-git-apress-ryan-hodson-rys-git-tutorial-smashwords-2014-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-anadida-nueva-referencia-bibliografica-cambiar-a-la-rama-master-cambiar-el-fichero-bibliografiatxt-para-que-contenga-las-siguientes-referencias-chacon-s-and-straub-b-pro-git-apress-loeliger-j-and-mccullough-m-version-control-with-git-oreilly-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-anadida-nueva-referencia-bibliografica-fusionar-la-rama-bibliografia-con-la-rama-masterresolver-el-conflicto-dejando-el-fichero-bibliografiatxt-con-las-referencias-chacon-s-and-straub-b-pro-git-apress-loeliger-j-and-mccullough-m-version-control-with-git-oreilly-hodson-r-rys-git-tutorial-smashwords-2014-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-resuelto-conflicto-de-bibliografia-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear la rama bibliografia. Cambiar a la rama bibliografia. Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias: Scott Chacon and Ben Straub. Pro Git. Apress. Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014). Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.” Cambiar a la rama master. Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias: Chacon, S. and Straub, B. Pro Git. Apress. Loeliger, J. and McCullough, M. Version control with Git. O’Reilly. Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.” Fusionar la rama bibliografia con la rama master.Resolver el conflicto dejando el fichero bibliografia.txt con las referencias: Chacon, S. and Straub, B. Pro Git. Apress. Loeliger, J. and McCullough, M. Version control with Git. O’Reilly. Hodson, R. Ry’s Git Tutorial. Smashwords (2014). Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Resuelto conflicto de bibliografía.” Mostrar la historia del repositorio incluyendo todas las ramas.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicios-de-repositorios-remotos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicios de repositorios remotos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicios de repositorios remotos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-un-nuevo-repositorio-publico-en-github-con-el-nombre-libro-git-anadirlo-al-repositorio-local-del-libro-mostrar-todos-los-repositorios-remotos-configurados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear un nuevo repositorio público en GitHub con el nombre libro-git. Añadirlo al repositorio local del libro. Mostrar todos los repositorios remotos configurados.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anadir-los-cambios-del-repositorio-local-al-repositorio-remoto-de-github-acceder-a-github-y-comprobar-que-se-han-subido-los-cambios-mostrando-el-historial-de-versiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Añadir los cambios del repositorio local al repositorio remoto de GitHub. Acceder a GitHub y comprobar que se han subido los cambios mostrando el historial de versiones.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#colaborar-en-el-repositorio-remoto-libro-git-de-otro-usuario-clonar-su-repositorio-libro-git-anadir-el-fichero-autorestxt-que-contenga-el-nombre-del-usuario-y-su-correo-electronico-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadido-autor-subir-los-cambios-al-repositorio-remoto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colaborar en el repositorio remoto libro-git de otro usuario. Clonar su repositorio libro-git. Añadir el fichero autores.txt que contenga el nombre del usuario y su correo electrónico. Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadido autor.” Subir los cambios al repositorio remoto.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hacer-una-bifurcacion-del-repositorio-remoto-asalberlibro-git-en-githubclonar-el-repositorio-creado-en-la-cuenta-de-github-del-usuario-crear-una-nueva-rama-autoria-y-activarla-anadir-el-nombre-del-usuario-y-su-correo-al-fichero-autorestxt-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadido-nuevo-autor-subir-los-cambios-de-la-rama-autoria-al-repositorio-remoto-en-github-hacer-un-pull-request-de-los-cambios-en-la-rama-autoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hacer una bifurcación del repositorio remoto asalber/libro-git en GitHub.Clonar el repositorio creado en la cuenta de GitHub del usuario. Crear una nueva rama autoria y activarla. Añadir el nombre del usuario y su correo al fichero autores.txt. Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadido nuevo autor.” Subir los cambios de la rama autoria al repositorio remoto en GitHub. Hacer un Pull Request de los cambios en la rama autoria.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creacion-y-actualizacion-de-un-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creación y actualización de un repositorio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creación y actualización de un repositorio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configurar-git-definiendo-el-nombre-del-usuario-el-correo-electronico-y-activar-el-coloreado-de-la-salida" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de la salida.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-un-repositorio-nuevo-con-el-nombre-libro-y-mostrar-su-contenido" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear un repositorio nuevo con el nombre libro y mostrar su contenido.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comprobar-el-estado-del-repositorio-crear-un-fichero-indicetxt-con-el-siguiente-contenido-capitulo-1-introduccion-a-git-capitulo-2-flujo-de-trabajo-basico-capitulo-3-repositorios-remotos-comprobar-de-nuevo-el-estado-del-repositorio-anadir-el-fichero-a-la-zona-de-intercambio-temporal-volver-a-comprobar-una-vez-mas-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comprobar el estado del repositorio. Crear un fichero indice.txt con el siguiente contenido: Capítulo 1: Introducción a Git Capítulo 2: Flujo de trabajo básico Capítulo 3: Repositorios remotos. Comprobar de nuevo el estado del repositorio. Añadir el fichero a la zona de intercambio temporal. Volver a comprobar una vez más el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#realizar-un-commit-de-los-ultimos-cambios-con-el-mensaje-anadido-indice-del-libro-y-ver-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Realizar un commit de los últimos cambios con el mensaje “Añadido índice del libro.” y ver el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 5
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cambiar-el-fichero-indicetxt-para-que-contenga-lo-siguiente-capitulo-1-introduccion-a-git-capitulo-2-flujo-de-trabajo-basico-capitulo-3-gestion-de-ramas-capitulo-4-repositorios-remotos-mostrar-los-cambios-con-respecto-a-la-ultima-version-guardada-en-el-repositorio-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-3-sobre-gestion-de-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cambiar el fichero indice.txt para que contenga lo siguiente: Capítulo 1: Introducción a Git Capítulo 2: Flujo de trabajo básico Capítulo 3: Gestión de ramas Capítulo 4: Repositorios remotos. Mostrar los cambios con respecto a la última versión guardada en el repositorio. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3 sobre gestión de ramas”.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 6
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mostrar-los-cambios-de-la-ultima-version-del-repositorio-con-respecto-a-la-anterior-cambiar-el-mensaje-del-ultimo-commit-por-anadido-capitulo-3-sobre-gestion-de-ramas-al-indice-volver-a-mostrar-los-ultimos-cambios-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mostrar los cambios de la última versión del repositorio con respecto a la anterior. Cambiar el mensaje del último commit por “Añadido capítulo 3 sobre gestión de ramas al índice.” Volver a mostrar los últimos cambios del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicios-de-manejo-del-historial-de-cambios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicios de manejo del historial de cambios
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicios de manejo del historial de cambios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mostrar-el-historial-de-cambios-del-repositorio-crear-la-carpeta-capitulos-y-crear-dentro-de-ella-el-fichero-capitulo1txt-con-el-siguiente-texto-git-es-un-sistema-de-control-de-versiones-ideado-por-linus-torvalds-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-1-volver-a-mostrar-el-historial-de-cambios-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mostrar el historial de cambios del repositorio. Crear la carpeta capitulos y crear dentro de ella el fichero capitulo1.txt con el siguiente texto: Git es un sistema de control de versiones ideado por Linus Torvalds. Añadir los cambios a la zona de intercambio temporal. Hacer un commit de los cambios con el mensaje “Añadido capítulo 1.” Volver a mostrar el historial de cambios del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-el-fichero-capitulo2txt-en-la-carpeta-capitulos-con-el-siguiente-texto-el-flujo-de-trabajo-basico-con-git-consiste-en-1-hacer-cambios-en-el-repositorio-2-anadir-los-cambios-a-la-zona-de-intercambio-temporal-3-hacer-un-commit-de-los-cambios-anadir-los-cambios-a-la-zona-de-intercambio-temporalhacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-2-mostrar-las-diferencias-entre-la-ultima-version-y-dos-versiones-anteriores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear el fichero capitulo2.txt en la carpeta capitulos con el siguiente texto: El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios. Añadir los cambios a la zona de intercambio temporal.Hacer un commit de los cambios con el mensaje “Añadido capítulo 2.” Mostrar las diferencias entre la última versión y dos versiones anteriores.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-el-fichero-capitulo3txt-en-la-carpeta-capitulos-con-el-siguiente-texto-git-permite-la-creacion-de-ramas-lo-que-permite-tener-distintas-versiones-del-mismo-proyecto-y-trabajar-de-manera-simultanea-en-ellas-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-3-mostrar-las-diferencias-entre-la-primera-y-la-ultima-version-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear el fichero capitulo3.txt en la carpeta capitulos con el siguiente texto: Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas. Añadir los cambios a la zona de intercambio temporal. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3.” Mostrar las diferencias entre la primera y la última versión del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anadir-al-final-del-fichero-indicetxt-la-siguiente-linea-capitulo-5-conceptos-avanzados-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-5-al-indicemostrar-quien-ha-hecho-cambios-sobre-el-fichero-indicetxt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Añadir al final del fichero indice.txt la siguiente línea: Capítulo 5: Conceptos avanzados. Añadir los cambios a la zona de intercambio temporal. Hacer un commit de los cambios con el mensaje “Añadido capítulo 5 al índice.”.Mostrar quién ha hecho cambios sobre el fichero indice.txt.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicicos-de-deshacer-cambios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicicos de deshacer cambios
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicicos de deshacer cambios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-comprobar-el-estado-del-repositorio-deshacer-los-cambios-realizados-en-el-fichero-indicetxt-para-volver-a-la-version-anterior-del-fichero-volver-a-comprobar-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eliminar la última línea del fichero indice.txt y guardarlo. Comprobar el estado del repositorio. Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero. Volver a comprobar el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-anadir-los-cambios-a-la-zona-de-intercambio-temporal-comprobar-de-nuevo-el-estado-del-repositorio-quitar-los-cambios-de-la-zona-de-intercambio-temporal-pero-mantenerlos-en-el-directorio-de-trabajo-comprobar-de-nuevo-el-estado-del-repositorio-deshacer-los-cambios-realizados-en-el-fichero-indicetxt-para-volver-a-la-version-anterior-del-fichero-volver-a-comprobar-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eliminar la última línea del fichero indice.txt y guardarlo. Añadir los cambios a la zona de intercambio temporal. Comprobar de nuevo el estado del repositorio. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo. Comprobar de nuevo el estado del repositorio. Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero. Volver a comprobar el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-eliminar-el-fichero-capituloscapitulo3txt-anadir-un-fichero-nuevo-capituloscapitulo4txt-vacio-anadir-los-cambios-a-la-zona-de-intercambio-temporal-comprobar-de-nuevo-el-estado-del-repositorio-quitar-los-cambios-de-la-zona-de-intercambio-temporal-pero-mantenerlos-en-el-directorio-de-trabajo-comprobar-de-nuevo-el-estado-del-repositorio-deshacer-los-cambios-realizados-para-volver-a-la-version-del-repositorio-volver-a-comprobar-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eliminar la última línea del fichero indice.txt y guardarlo. Eliminar el fichero capitulos/capitulo3.txt. Añadir un fichero nuevo capitulos/capitulo4.txt vacío. Añadir los cambios a la zona de intercambio temporal. Comprobar de nuevo el estado del repositorio. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo. Comprobar de nuevo el estado del repositorio. Deshacer los cambios realizados para volver a la versión del repositorio. Volver a comprobar el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-eliminar-el-fichero-capituloscapitulo3txt-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-borrado-accidental-comprobar-el-historial-del-repositorio-deshacer-el-ultimo-commit-pero-mantener-los-cambios-anteriores-en-el-directorio-de-trabajo-y-la-zona-de-intercambio-temporalcomprobar-el-historial-y-el-estado-del-repositorio-volver-a-hacer-el-commit-con-el-mismo-mensaje-de-antes-deshacer-el-ultimo-commit-y-los-cambios-anteriores-del-directorio-de-trabajo-volviendo-a-la-version-anterior-del-repositorio-comprobar-de-nuevo-el-historial-y-el-estado-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eliminar la última línea del fichero indice.txt y guardarlo. Eliminar el fichero capitulos/capitulo3.txt. Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Borrado accidental.” Comprobar el historial del repositorio. Deshacer el último commit pero mantener los cambios anteriores en el directorio de trabajo y la zona de intercambio temporal.Comprobar el historial y el estado del repositorio. Volver a hacer el commit con el mismo mensaje de antes. Deshacer el último commit y los cambios anteriores del directorio de trabajo volviendo a la versión anterior del repositorio. Comprobar de nuevo el historial y el estado del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicios-de-gestion-de-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicios de gestión de ramas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicios de gestión de ramas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-una-nueva-rama-bibliografia-y-mostrar-las-ramas-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear una nueva rama bibliografia y mostrar las ramas del repositorio.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-el-fichero-capituloscapitulo4txt-y-anadir-el-texto-siguiente-en-este-capitulo-veremos-como-usar-github-para-alojar-repositorios-en-remotoanadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadido-capitulo-4-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear el fichero capitulos/capitulo4.txt y añadir el texto siguiente En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadido capítulo 4.” Mostrar la historia del repositorio incluyendo todas las ramas.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cambiar-a-la-rama-bibliografia-crear-el-fichero-bibliografiatxt-y-anadir-la-siguiente-referencia-chacon-s-and-straub-b-pro-git-apress-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadida-primera-referencia-bibliografica-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cambiar a la rama bibliografia. Crear el fichero bibliografia.txt y añadir la siguiente referencia: Chacon, S. and Straub, B. Pro Git. Apress. Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.” Mostrar la historia del repositorio incluyendo todas las ramas.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fusionar-la-rama-bibliografia-con-la-rama-master-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas-eliminar-la-rama-bibliografia-mostrar-de-nuevo-la-historia-del-repositorio-incluyendo-todas-las-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fusionar la rama bibliografia con la rama master. Mostrar la historia del repositorio incluyendo todas las ramas. Eliminar la rama bibliografia. Mostrar de nuevo la historia del repositorio incluyendo todas las ramas.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 5
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-la-rama-bibliografia-cambiar-a-la-rama-bibliografia-cambiar-el-fichero-bibliografiatxt-para-que-contenga-las-siguientes-referencias-scott-chacon-and-ben-straub-pro-git-apress-ryan-hodson-rys-git-tutorial-smashwords-2014-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-anadida-nueva-referencia-bibliografica-cambiar-a-la-rama-master-cambiar-el-fichero-bibliografiatxt-para-que-contenga-las-siguientes-referencias-chacon-s-and-straub-b-pro-git-apress-loeliger-j-and-mccullough-m-version-control-with-git-oreilly-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-anadida-nueva-referencia-bibliografica-fusionar-la-rama-bibliografia-con-la-rama-masterresolver-el-conflicto-dejando-el-fichero-bibliografiatxt-con-las-referencias-chacon-s-and-straub-b-pro-git-apress-loeliger-j-and-mccullough-m-version-control-with-git-oreilly-hodson-r-rys-git-tutorial-smashwords-2014-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-resuelto-conflicto-de-bibliografia-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear la rama bibliografia. Cambiar a la rama bibliografia. Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias: Scott Chacon and Ben Straub. Pro Git. Apress. Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014). Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.” Cambiar a la rama master. Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias: Chacon, S. and Straub, B. Pro Git. Apress. Loeliger, J. and McCullough, M. Version control with Git. O’Reilly. Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.” Fusionar la rama bibliografia con la rama master.Resolver el conflicto dejando el fichero bibliografia.txt con las referencias: Chacon, S. and Straub, B. Pro Git. Apress. Loeliger, J. and McCullough, M. Version control with Git. O’Reilly. Hodson, R. Ry’s Git Tutorial. Smashwords (2014). Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Resuelto conflicto de bibliografía.” Mostrar la historia del repositorio incluyendo todas las ramas.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicios-de-repositorios-remotos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicios de repositorios remotos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicios de repositorios remotos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-un-nuevo-repositorio-publico-en-github-con-el-nombre-libro-git-anadirlo-al-repositorio-local-del-libro-mostrar-todos-los-repositorios-remotos-configurados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear un nuevo repositorio público en GitHub con el nombre libro-git. Añadirlo al repositorio local del libro. Mostrar todos los repositorios remotos configurados.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anadir-los-cambios-del-repositorio-local-al-repositorio-remoto-de-github-acceder-a-github-y-comprobar-que-se-han-subido-los-cambios-mostrando-el-historial-de-versiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Añadir los cambios del repositorio local al repositorio remoto de GitHub. Acceder a GitHub y comprobar que se han subido los cambios mostrando el historial de versiones.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#colaborar-en-el-repositorio-remoto-libro-git-de-otro-usuario-clonar-su-repositorio-libro-git-anadir-el-fichero-autorestxt-que-contenga-el-nombre-del-usuario-y-su-correo-electronico-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadido-autor-subir-los-cambios-al-repositorio-remoto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colaborar en el repositorio remoto libro-git de otro usuario. Clonar su repositorio libro-git. Añadir el fichero autores.txt que contenga el nombre del usuario y su correo electrónico. Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadido autor.” Subir los cambios al repositorio remoto.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicio 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hacer-una-bifurcacion-del-repositorio-remoto-asalberlibro-git-en-githubclonar-el-repositorio-creado-en-la-cuenta-de-github-del-usuario-crear-una-nueva-rama-autoria-y-activarla-anadir-el-nombre-del-usuario-y-su-correo-al-fichero-autorestxt-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadido-nuevo-autor-subir-los-cambios-de-la-rama-autoria-al-repositorio-remoto-en-github-hacer-un-pull-request-de-los-cambios-en-la-rama-autoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hacer una bifurcación del repositorio remoto asalber/libro-git en GitHub.Clonar el repositorio creado en la cuenta de GitHub del usuario. Crear una nueva rama autoria y activarla. Añadir el nombre del usuario y su correo al fichero autores.txt. Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadido nuevo autor.” Subir los cambios de la rama autoria al repositorio remoto en GitHub. Hacer un Pull Request de los cambios en la rama autoria.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="segunda-parte-de-la-practica">Segunda parte de la práctica</h1>
+<h2 id="creacion-y-actualizacion-de-un-repositorio">Creación y actualización de un repositorio</h2>
+<h3 id="ejercicio-1">Ejercicio 1</h3>
+<h4 id="configurar-git-definiendo-el-nombre-del-usuario-el-correo-electronico-y-activar-el-coloreado-de-la-salida">Configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de la salida.</h4>
+<p>Usamos los comandos de git config:</p>
+<p><img alt="1" src="../includes/images/segunda%20parte/1.png" /></p>
+<h3 id="ejercicio-2">Ejercicio 2</h3>
+<h4 id="crear-un-repositorio-nuevo-con-el-nombre-libro-y-mostrar-su-contenido">Crear un repositorio nuevo con el nombre libro y mostrar su contenido.</h4>
+<p>Para crear un repositorio nuevo usamos el comando git init:</p>
+<p><img alt="2" src="../includes/images/segunda%20parte/2.png" /></p>
+<h3 id="ejercicio-3">Ejercicio 3</h3>
+<h4 id="comprobar-el-estado-del-repositorio-crear-un-fichero-indicetxt-con-el-siguiente-contenido-capitulo-1-introduccion-a-git-capitulo-2-flujo-de-trabajo-basico-capitulo-3-repositorios-remotos-comprobar-de-nuevo-el-estado-del-repositorio-anadir-el-fichero-a-la-zona-de-intercambio-temporal-volver-a-comprobar-una-vez-mas-el-estado-del-repositorio">Comprobar el estado del repositorio. Crear un fichero indice.txt con el siguiente contenido: Capítulo 1: Introducción a Git Capítulo 2: Flujo de trabajo básico Capítulo 3: Repositorios remotos. Comprobar de nuevo el estado del repositorio. Añadir el fichero a la zona de intercambio temporal. Volver a comprobar una vez más el estado del repositorio.</h4>
+<p>Usamos el comando git status para comprobar el estado del repositorio, git add para añadir el fichero a la zona de intercambio temporal y git status para comprobar de nuevo el estado del repositorio:</p>
+<p><img alt="3" src="../includes/images/segunda%20parte/3.png" /></p>
+<h3 id="ejercicio-4">Ejercicio 4</h3>
+<h4 id="realizar-un-commit-de-los-ultimos-cambios-con-el-mensaje-anadido-indice-del-libro-y-ver-el-estado-del-repositorio">Realizar un commit de los últimos cambios con el mensaje “Añadido índice del libro.” y ver el estado del repositorio.</h4>
+<p>Usamos el comando git commit -m "Añadido índice del libro." para realizar un commit de los últimos cambios y git status para ver el estado del repositorio:</p>
+<p><img alt="4" src="../includes/images/segunda%20parte/4.png" /></p>
+<h3 id="ejercicio-5">Ejercicio 5</h3>
+<h4 id="cambiar-el-fichero-indicetxt-para-que-contenga-lo-siguiente-capitulo-1-introduccion-a-git-capitulo-2-flujo-de-trabajo-basico-capitulo-3-gestion-de-ramas-capitulo-4-repositorios-remotos-mostrar-los-cambios-con-respecto-a-la-ultima-version-guardada-en-el-repositorio-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-3-sobre-gestion-de-ramas">Cambiar el fichero indice.txt para que contenga lo siguiente: Capítulo 1: Introducción a Git Capítulo 2: Flujo de trabajo básico Capítulo 3: Gestión de ramas Capítulo 4: Repositorios remotos. Mostrar los cambios con respecto a la última versión guardada en el repositorio. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3 sobre gestión de ramas”.</h4>
+<p>Usamos el comando git diff para mostrar los cambios con respecto a la última versión guardada en el repositorio, git commit -m "Añadido capítulo 3 sobre gestión de ramas" para hacer un commit de los cambios y git status para ver el estado del repositorio:</p>
+<p><img alt="5" src="../includes/images/segunda%20parte/5.png" /></p>
+<h3 id="ejercicio-6">Ejercicio 6</h3>
+<h4 id="mostrar-los-cambios-de-la-ultima-version-del-repositorio-con-respecto-a-la-anterior-cambiar-el-mensaje-del-ultimo-commit-por-anadido-capitulo-3-sobre-gestion-de-ramas-al-indice-volver-a-mostrar-los-ultimos-cambios-del-repositorio">Mostrar los cambios de la última versión del repositorio con respecto a la anterior. Cambiar el mensaje del último commit por “Añadido capítulo 3 sobre gestión de ramas al índice.” Volver a mostrar los últimos cambios del repositorio.</h4>
+<p>Usaremos git show para mostrar los cambios de la última versión del repositorio con respecto a la anterior, git commit --amend -m "Añadido capítulo 3 sobre gestión de ramas al índice." para cambiar el mensaje del último commit y git show para volver a mostrar los últimos cambios del repositorio:</p>
+<p><img alt="6" src="../includes/images/segunda%20parte/6.png" /></p>
+<h2 id="ejercicios-de-manejo-del-historial-de-cambios">Ejercicios de manejo del historial de cambios</h2>
+<h3 id="ejercicio-1_1">Ejercicio 1</h3>
+<h4 id="mostrar-el-historial-de-cambios-del-repositorio-crear-la-carpeta-capitulos-y-crear-dentro-de-ella-el-fichero-capitulo1txt-con-el-siguiente-texto-git-es-un-sistema-de-control-de-versiones-ideado-por-linus-torvalds-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-1-volver-a-mostrar-el-historial-de-cambios-del-repositorio">Mostrar el historial de cambios del repositorio. Crear la carpeta capitulos y crear dentro de ella el fichero capitulo1.txt con el siguiente texto: Git es un sistema de control de versiones ideado por Linus Torvalds. Añadir los cambios a la zona de intercambio temporal. Hacer un commit de los cambios con el mensaje “Añadido capítulo 1.” Volver a mostrar el historial de cambios del repositorio.</h4>
+<p>Usaremos el comando git log para mostrar el historial de cambios del repositorio con las opciones --oneline, --decorate --graph --all. Crearemos la carpeta capitulos y dentro de ella el fichero capitulo1.txt con el texto indicado, añadiremos los cambios a la zona de intercambio temporal y haremos un commit de los cambios con el mensaje "Añadido capítulo 1." y volveremos a mostrar el historial de cambios del repositorio:</p>
+<p><img alt="7" src="../includes/images/segunda%20parte/7.png" /></p>
+<h3 id="ejercicio-2_1">Ejercicio 2</h3>
+<h4 id="crear-el-fichero-capitulo2txt-en-la-carpeta-capitulos-con-el-siguiente-texto-el-flujo-de-trabajo-basico-con-git-consiste-en-1-hacer-cambios-en-el-repositorio-2-anadir-los-cambios-a-la-zona-de-intercambio-temporal-3-hacer-un-commit-de-los-cambios-anadir-los-cambios-a-la-zona-de-intercambio-temporalhacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-2-mostrar-las-diferencias-entre-la-ultima-version-y-dos-versiones-anteriores">Crear el fichero capitulo2.txt en la carpeta capitulos con el siguiente texto: El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios. Añadir los cambios a la zona de intercambio temporal.Hacer un commit de los cambios con el mensaje “Añadido capítulo 2.” Mostrar las diferencias entre la última versión y dos versiones anteriores.</h4>
+<p>Crearemos el fichero capitulo2.txt en la carpeta capitulos con el texto indicado, añadiremos los cambios a la zona de intercambio temporal y haremos un commit de los cambios con el mensaje "Añadido capítulo 2." y mostraremos las diferencias entre la última versión y dos versiones anteriores con git diff;</p>
+<p><img alt="8" src="../includes/images/segunda%20parte/8.png" /></p>
+<h3 id="ejercicio-3_1">Ejercicio 3</h3>
+<h4 id="crear-el-fichero-capitulo3txt-en-la-carpeta-capitulos-con-el-siguiente-texto-git-permite-la-creacion-de-ramas-lo-que-permite-tener-distintas-versiones-del-mismo-proyecto-y-trabajar-de-manera-simultanea-en-ellas-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-3-mostrar-las-diferencias-entre-la-primera-y-la-ultima-version-del-repositorio">Crear el fichero capitulo3.txt en la carpeta capitulos con el siguiente texto: Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas. Añadir los cambios a la zona de intercambio temporal. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3.” Mostrar las diferencias entre la primera y la última versión del repositorio.</h4>
+<p>Crearemos el fichero capitulo3.txt en la carpeta capitulos con el texto indicado, añadiremos los cambios a la zona de intercambio temporal y haremos un commit de los cambios con el mensaje "Añadido capítulo 3." y mostraremos las diferencias entre la primera y la última versión del repositorio con git diff;</p>
+<p><img alt="9" src="../includes/images/segunda%20parte/9.png" /></p>
+<h3 id="ejercicio-4_1">Ejercicio 4</h3>
+<h4 id="anadir-al-final-del-fichero-indicetxt-la-siguiente-linea-capitulo-5-conceptos-avanzados-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-de-los-cambios-con-el-mensaje-anadido-capitulo-5-al-indicemostrar-quien-ha-hecho-cambios-sobre-el-fichero-indicetxt">Añadir al final del fichero indice.txt la siguiente línea: Capítulo 5: Conceptos avanzados. Añadir los cambios a la zona de intercambio temporal. Hacer un commit de los cambios con el mensaje “Añadido capítulo 5 al índice.”.Mostrar quién ha hecho cambios sobre el fichero indice.txt.</h4>
+<p>Añadiremos al final del fichero indice.txt la línea indicada, añadiremos los cambios a la zona de intercambio temporal y haremos un commit de los cambios con el mensaje "Añadido capítulo 5 al índice." y mostraremos quién ha hecho cambios sobre el fichero indice.txt con git blame;</p>
+<p><img alt="10" src="../includes/images/segunda%20parte/10.png" /></p>
+<h2 id="ejercicicos-de-deshacer-cambios">Ejercicicos de deshacer cambios</h2>
+<h3 id="ejercicio-1_2">Ejercicio 1</h3>
+<h4 id="eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-comprobar-el-estado-del-repositorio-deshacer-los-cambios-realizados-en-el-fichero-indicetxt-para-volver-a-la-version-anterior-del-fichero-volver-a-comprobar-el-estado-del-repositorio">Eliminar la última línea del fichero indice.txt y guardarlo. Comprobar el estado del repositorio. Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero. Volver a comprobar el estado del repositorio.</h4>
+<p>Eliminaremos la última línea del fichero indice.txt y guardaremos los cambios, comprobaremos el estado del repositorio, desharemos los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero usando git restore y volveremos a comprobar el estado del repositorio:</p>
+<p><img alt="11" src="../includes/images/segunda%20parte/11.png" /></p>
+<h3 id="ejercicio-2_2">Ejercicio 2</h3>
+<h4 id="eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-anadir-los-cambios-a-la-zona-de-intercambio-temporal-comprobar-de-nuevo-el-estado-del-repositorio-quitar-los-cambios-de-la-zona-de-intercambio-temporal-pero-mantenerlos-en-el-directorio-de-trabajo-comprobar-de-nuevo-el-estado-del-repositorio-deshacer-los-cambios-realizados-en-el-fichero-indicetxt-para-volver-a-la-version-anterior-del-fichero-volver-a-comprobar-el-estado-del-repositorio">Eliminar la última línea del fichero indice.txt y guardarlo. Añadir los cambios a la zona de intercambio temporal. Comprobar de nuevo el estado del repositorio. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo. Comprobar de nuevo el estado del repositorio. Deshacer los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero. Volver a comprobar el estado del repositorio.</h4>
+<p>Eliminaremos la última línea del fichero indice.txt y guardaremos los cambios, añadiremos los cambios a la zona de intercambio temporal, comprobaremos de nuevo el estado del repositorio, quitaremos los cambios de la zona de intercambio temporal usando git restore --staged, pero los mantendremos en el directorio de trabajo, comprobaremos de nuevo el estado del repositorio, desharemos los cambios realizados en el fichero indice.txt para volver a la versión anterior del fichero con git restore y volveremos a comprobar el estado del repositorio:</p>
+<p><img alt="12" src="../includes/images/segunda%20parte/12.png" /></p>
+<h3 id="ejercicio-3_2">Ejercicio 3</h3>
+<h4 id="eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-eliminar-el-fichero-capituloscapitulo3txt-anadir-un-fichero-nuevo-capituloscapitulo4txt-vacio-anadir-los-cambios-a-la-zona-de-intercambio-temporal-comprobar-de-nuevo-el-estado-del-repositorio-quitar-los-cambios-de-la-zona-de-intercambio-temporal-pero-mantenerlos-en-el-directorio-de-trabajo-comprobar-de-nuevo-el-estado-del-repositorio-deshacer-los-cambios-realizados-para-volver-a-la-version-del-repositorio-volver-a-comprobar-el-estado-del-repositorio">Eliminar la última línea del fichero indice.txt y guardarlo. Eliminar el fichero capitulos/capitulo3.txt. Añadir un fichero nuevo capitulos/capitulo4.txt vacío. Añadir los cambios a la zona de intercambio temporal. Comprobar de nuevo el estado del repositorio. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos en el directorio de trabajo. Comprobar de nuevo el estado del repositorio. Deshacer los cambios realizados para volver a la versión del repositorio. Volver a comprobar el estado del repositorio.</h4>
+<p>Eliminaremos la última línea del fichero indice.txt y guardaremos los cambios, eliminaremos el fichero capitulos/capitulo3.txt, añadiremos un fichero nuevo capitulos/capitulo4.txt vacío, añadiremos los cambios a la zona de intercambio temporal, comprobaremos de nuevo el estado del repositorio, quitaremos los cambios de la zona de intercambio temporal usando git restore --staged, pero los mantendremos en el directorio de trabajo, comprobaremos de nuevo el estado del repositorio, desharemos los cambios realizados para volver a la versión del repositorio con git restore y volveremos a comprobar el estado del repositorio:</p>
+<p><img alt="13" src="../includes/images/segunda%20parte/13.png" /></p>
+<h3 id="ejercicio-4_2">Ejercicio 4</h3>
+<h4 id="eliminar-la-ultima-linea-del-fichero-indicetxt-y-guardarlo-eliminar-el-fichero-capituloscapitulo3txt-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-borrado-accidental-comprobar-el-historial-del-repositorio-deshacer-el-ultimo-commit-pero-mantener-los-cambios-anteriores-en-el-directorio-de-trabajo-y-la-zona-de-intercambio-temporalcomprobar-el-historial-y-el-estado-del-repositorio-volver-a-hacer-el-commit-con-el-mismo-mensaje-de-antes-deshacer-el-ultimo-commit-y-los-cambios-anteriores-del-directorio-de-trabajo-volviendo-a-la-version-anterior-del-repositorio-comprobar-de-nuevo-el-historial-y-el-estado-del-repositorio">Eliminar la última línea del fichero indice.txt y guardarlo. Eliminar el fichero capitulos/capitulo3.txt. Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Borrado accidental.” Comprobar el historial del repositorio. Deshacer el último commit pero mantener los cambios anteriores en el directorio de trabajo y la zona de intercambio temporal.Comprobar el historial y el estado del repositorio. Volver a hacer el commit con el mismo mensaje de antes. Deshacer el último commit y los cambios anteriores del directorio de trabajo volviendo a la versión anterior del repositorio. Comprobar de nuevo el historial y el estado del repositorio.</h4>
+<p>Eliminaremos la última línea del fichero indice.txt y guardaremos los cambios, eliminaremos el fichero capitulos/capitulo3.txt, añadiremos los cambios a la zona de intercambio temporal y haremos un commit con el mensaje "Borrado accidental.", comprobaremos el historial del repositorio, desharemos el último commit pero mantendremos los cambios anteriores en el directorio de trabajo y la zona de intercambio temporal con git reset --soft HEAD~1</p>
+<p><img alt="14" src="../includes/images/segunda%20parte/14.png" /></p>
+<h2 id="ejercicios-de-gestion-de-ramas">Ejercicios de gestión de ramas</h2>
+<h3 id="ejercicio-1_3">Ejercicio 1</h3>
+<h4 id="crear-una-nueva-rama-bibliografia-y-mostrar-las-ramas-del-repositorio">Crear una nueva rama bibliografia y mostrar las ramas del repositorio.</h4>
+<p>Crearemos una nueva rama bibliografia con el comando git branch bibliografia y mostraremos las ramas del repositorio con el comando git branch:</p>
+<p><img alt="15" src="../includes/images/segunda%20parte/15.png" /></p>
+<h3 id="ejercicio-2_3">Ejercicio 2</h3>
+<h4 id="crear-el-fichero-capituloscapitulo4txt-y-anadir-el-texto-siguiente-en-este-capitulo-veremos-como-usar-github-para-alojar-repositorios-en-remotoanadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadido-capitulo-4-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas">Crear el fichero capitulos/capitulo4.txt y añadir el texto siguiente En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadido capítulo 4.” Mostrar la historia del repositorio incluyendo todas las ramas.</h4>
+<p>Añado el archivo y hago el commit:</p>
+<p><img alt="16" src="../includes/images/segunda%20parte/16.png" /></p>
+<h3 id="ejercicio-3_3">Ejercicio 3</h3>
+<h4 id="cambiar-a-la-rama-bibliografia-crear-el-fichero-bibliografiatxt-y-anadir-la-siguiente-referencia-chacon-s-and-straub-b-pro-git-apress-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadida-primera-referencia-bibliografica-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas">Cambiar a la rama bibliografia. Crear el fichero bibliografia.txt y añadir la siguiente referencia: Chacon, S. and Straub, B. Pro Git. Apress. Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.” Mostrar la historia del repositorio incluyendo todas las ramas.</h4>
+<p>Cambiamos a la rama bibliografia, creamos el archivo y hacemos el commit:</p>
+<p><img alt="17" src="../includes/images/segunda%20parte/17.png" /></p>
+<h3 id="ejercicio-4_3">Ejercicio 4</h3>
+<h4 id="fusionar-la-rama-bibliografia-con-la-rama-master-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas-eliminar-la-rama-bibliografia-mostrar-de-nuevo-la-historia-del-repositorio-incluyendo-todas-las-ramas">Fusionar la rama bibliografia con la rama master. Mostrar la historia del repositorio incluyendo todas las ramas. Eliminar la rama bibliografia. Mostrar de nuevo la historia del repositorio incluyendo todas las ramas.</h4>
+<p>Fusionamos la rama bibliografia con la rama main, mostramos la historia del repositorio incluyendo todas las ramas, eliminamos la rama bibliografia y mostramos de nuevo la historia del repositorio incluyendo todas las ramas:</p>
+<p><img alt="18" src="../includes/images/segunda%20parte/18.png" /></p>
+<h3 id="ejercicio-5_1">Ejercicio 5</h3>
+<h4 id="crear-la-rama-bibliografia-cambiar-a-la-rama-bibliografia-cambiar-el-fichero-bibliografiatxt-para-que-contenga-las-siguientes-referencias-scott-chacon-and-ben-straub-pro-git-apress-ryan-hodson-rys-git-tutorial-smashwords-2014-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-anadida-nueva-referencia-bibliografica-cambiar-a-la-rama-master-cambiar-el-fichero-bibliografiatxt-para-que-contenga-las-siguientes-referencias-chacon-s-and-straub-b-pro-git-apress-loeliger-j-and-mccullough-m-version-control-with-git-oreilly-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-anadida-nueva-referencia-bibliografica-fusionar-la-rama-bibliografia-con-la-rama-masterresolver-el-conflicto-dejando-el-fichero-bibliografiatxt-con-las-referencias-chacon-s-and-straub-b-pro-git-apress-loeliger-j-and-mccullough-m-version-control-with-git-oreilly-hodson-r-rys-git-tutorial-smashwords-2014-anadir-los-cambios-a-la-zona-de-intercambio-temporal-y-hacer-un-commit-con-el-mensaje-resuelto-conflicto-de-bibliografia-mostrar-la-historia-del-repositorio-incluyendo-todas-las-ramas">Crear la rama bibliografia. Cambiar a la rama bibliografia. Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias: Scott Chacon and Ben Straub. Pro Git. Apress. Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014). Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.” Cambiar a la rama master. Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias: Chacon, S. and Straub, B. Pro Git. Apress. Loeliger, J. and McCullough, M. Version control with Git. O’Reilly. Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.” Fusionar la rama bibliografia con la rama master.Resolver el conflicto dejando el fichero bibliografia.txt con las referencias: Chacon, S. and Straub, B. Pro Git. Apress. Loeliger, J. and McCullough, M. Version control with Git. O’Reilly. Hodson, R. Ry’s Git Tutorial. Smashwords (2014). Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Resuelto conflicto de bibliografía.” Mostrar la historia del repositorio incluyendo todas las ramas.</h4>
+<p>Creamos la rama bibliografia, cambiamos a la rama bibliografia, cambiamos el fichero bibliografia.txt para que contenga las referencias indicadas, añadimos los cambios a la zona de intercambio temporal y hacemos un commit con el mensaje "Añadida nueva referencia bibliográfica.", cambiamos a la rama main, cambiamos el fichero bibliografia.txt para que contenga las referencias indicadas, añadimos los cambios a la zona de intercambio temporal y hacemos un commit con el mensaje "Añadida nueva referencia bibliográfica.", fusionamos la rama bibliografia con la rama main, resolvemos el conflicto dejando el fichero bibliografia.txt con las referencias indicadas, añadimos los cambios a la zona de intercambio temporal y hacemos un commit con el mensaje "Resuelto conflicto de bibliografía." y mostramos la historia del repositorio incluyendo todas las ramas:</p>
+<p><img alt="19" src="../includes/images/segunda%20parte/19.png" /></p>
+<h2 id="ejercicios-de-repositorios-remotos">Ejercicios de repositorios remotos</h2>
+<h3 id="ejercicio-1_4">Ejercicio 1</h3>
+<h4 id="crear-un-nuevo-repositorio-publico-en-github-con-el-nombre-libro-git-anadirlo-al-repositorio-local-del-libro-mostrar-todos-los-repositorios-remotos-configurados">Crear un nuevo repositorio público en GitHub con el nombre libro-git. Añadirlo al repositorio local del libro. Mostrar todos los repositorios remotos configurados.</h4>
+<p>Creamos un nuevo repositorio público en GitHub con el nombre libro-git, añadimos el repositorio remoto al repositorio local del libro con el comando git remote add origin:</p>
+<p><img alt="20" src="../includes/images/segunda%20parte/20.png" /></p>
+<h3 id="ejercicio-2_4">Ejercicio 2</h3>
+<h4 id="anadir-los-cambios-del-repositorio-local-al-repositorio-remoto-de-github-acceder-a-github-y-comprobar-que-se-han-subido-los-cambios-mostrando-el-historial-de-versiones">Añadir los cambios del repositorio local al repositorio remoto de GitHub. Acceder a GitHub y comprobar que se han subido los cambios mostrando el historial de versiones.</h4>
+<p>Añadimos los cambios del repositorio local al repositorio remoto de GitHub con el comando git push origin main y accedemos a GitHub para comprobar que se han subido los cambios mostrando el historial de versiones:</p>
+<p><img alt="21" src="../includes/images/segunda%20parte/21.png" /></p>
+<p><img alt="22" src="../includes/images/segunda%20parte/22.png" /></p>
+<h3 id="ejercicio-3_4">Ejercicio 3</h3>
+<h4 id="colaborar-en-el-repositorio-remoto-libro-git-de-otro-usuario-clonar-su-repositorio-libro-git-anadir-el-fichero-autorestxt-que-contenga-el-nombre-del-usuario-y-su-correo-electronico-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadido-autor-subir-los-cambios-al-repositorio-remoto">Colaborar en el repositorio remoto libro-git de otro usuario. Clonar su repositorio libro-git. Añadir el fichero autores.txt que contenga el nombre del usuario y su correo electrónico. Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadido autor.” Subir los cambios al repositorio remoto.</h4>
+<p>Lo hacemos con el usuario de Jaime Grueso:</p>
+<p><img alt="23" src="../includes/images/segunda%20parte/23.png" /></p>
+<h3 id="ejercicio-4_4">Ejercicio 4</h3>
+<h4 id="hacer-una-bifurcacion-del-repositorio-remoto-asalberlibro-git-en-githubclonar-el-repositorio-creado-en-la-cuenta-de-github-del-usuario-crear-una-nueva-rama-autoria-y-activarla-anadir-el-nombre-del-usuario-y-su-correo-al-fichero-autorestxt-anadir-los-cambios-a-la-zona-de-intercambio-temporal-hacer-un-commit-con-el-mensaje-anadido-nuevo-autor-subir-los-cambios-de-la-rama-autoria-al-repositorio-remoto-en-github-hacer-un-pull-request-de-los-cambios-en-la-rama-autoria">Hacer una bifurcación del repositorio remoto asalber/libro-git en GitHub.Clonar el repositorio creado en la cuenta de GitHub del usuario. Crear una nueva rama autoria y activarla. Añadir el nombre del usuario y su correo al fichero autores.txt. Añadir los cambios a la zona de intercambio temporal. Hacer un commit con el mensaje “Añadido nuevo autor.” Subir los cambios de la rama autoria al repositorio remoto en GitHub. Hacer un Pull Request de los cambios en la rama autoria.</h4>
+<p>Hacemos el fork, actualizamos el repositorio local, creamos la rama autoria, añadimos el nombre del usuario y su correo al fichero autores.txt, añadimos los cambios a la zona de intercambio temporal, hacemos un commit con el mensaje "Añadido nuevo autor.", subimos los cambios de la rama autoria al repositorio remoto en GitHub y hacemos un Pull Request de los cambios en la rama autoria:</p>
+<p><img alt="25" src="../includes/images/segunda%20parte/25.png" /></p>
+<p><img alt="26" src="../includes/images/segunda%20parte/26.png" /></p>
+<p><img alt="27" src="../includes/images/segunda%20parte/27.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f13b1293.min.js"></script>
+      
+    
+  </body>
+</html>

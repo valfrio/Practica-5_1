@@ -1,0 +1,757 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mydomain.org/mysite/pr%C3%A1ctica%201/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../pr%C3%A1ctica%202/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.2">
+    
+    
+      
+        <title>Primera parte de la práctica - My site</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.d7758b05.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#primera-parte-de-la-practica" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My site" class="md-header__button md-logo" aria-label="My site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My site
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Primera parte de la práctica
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My site" class="md-nav__button md-logo" aria-label="My site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My site
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Práctica 5.1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Primera parte de la práctica
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Primera parte de la práctica
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creacion-del-readmemd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creación del README.md
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commit-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commit inicial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#push-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Push inicial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ignorar-archivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ignorar archivos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anadir-fichero-1txt-crear-el-tag-y-subirlo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Añadir fichero 1.txt, crear el tag y subirlo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cuenta-de-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cuenta de github
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uso-social-de-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uso social de github
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crear-una-tabla" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear una tabla
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colaboradores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colaboradores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crea-una-rama-v02" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crea una rama v0.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anadir-fichero-2txt-y-creamos-la-rama-remota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Añadir fichero 2.txt y creamos la rama remota
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#merge-directo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merge directo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#merge-con-conflicto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merge con conflicto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listado-de-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Listado de ramas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arreglar-el-conflicto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arreglar el conflicto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#borrar-rama" class="md-nav__link">
+    <span class="md-ellipsis">
+      Borrar rama
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listado-de-cambios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Listado de cambios
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pr%C3%A1ctica%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Segunda parte de la práctica
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creacion-del-readmemd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creación del README.md
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commit-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commit inicial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#push-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Push inicial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ignorar-archivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ignorar archivos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anadir-fichero-1txt-crear-el-tag-y-subirlo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Añadir fichero 1.txt, crear el tag y subirlo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cuenta-de-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cuenta de github
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uso-social-de-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uso social de github
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crear-una-tabla" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear una tabla
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colaboradores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colaboradores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crea-una-rama-v02" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crea una rama v0.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anadir-fichero-2txt-y-creamos-la-rama-remota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Añadir fichero 2.txt y creamos la rama remota
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#merge-directo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merge directo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#merge-con-conflicto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merge con conflicto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listado-de-ramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Listado de ramas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arreglar-el-conflicto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arreglar el conflicto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#borrar-rama" class="md-nav__link">
+    <span class="md-ellipsis">
+      Borrar rama
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listado-de-cambios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Listado de cambios
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="primera-parte-de-la-practica">Primera parte de la práctica</h1>
+<h2 id="creacion-del-readmemd">Creación del README.md</h2>
+<p>Antes de nada durante toda la práctica usaré distintos alias. Por ejemplo para commit -m crée el alias comm. Para log --one-line logone. c</p>
+<p>Ahora sí creamos el readme.md .</p>
+<h2 id="commit-inicial">Commit inicial</h2>
+<p>Hacemos un commit con el mensaje "Comenzamos con los ejercicios de Git"</p>
+<p><img alt="1" src="../includes/images/1.png" /></p>
+<h2 id="push-inicial">Push inicial</h2>
+<p>Subimos los cambios al repositorio remoto con el comando <code>git push</code></p>
+<p><img alt="2" src="../includes/images/2.png" /></p>
+<h2 id="ignorar-archivos">Ignorar archivos</h2>
+<p>Creamos un archivo llamado privado.txt en la carpeta privada y lo añadimos al .gitignore</p>
+<p><img alt="3" src="../includes/images/3.png" /></p>
+<h2 id="anadir-fichero-1txt-crear-el-tag-y-subirlo">Añadir fichero 1.txt, crear el tag y subirlo</h2>
+<p>Añadimos el fichero, creamos el tag usando el comando <code>git tag v0.1</code> y subimos los cambios al repositorio remoto.</p>
+<p><img alt="4" src="../includes/images/4.png" /></p>
+<h2 id="cuenta-de-github">Cuenta de github</h2>
+<p>Para ello debemos de ir a ajustes, a perfil y modificar la foto de perfil. Para el doble factor
+de autenticación debemos de activar la clave ssh. Para ello debemos de generar una clave, añadirla al agente
+del ordenador y por último pasar la clave pública a github. <a href="https://docs.github.com/es/authentication/connecting-to-github-with-ssh">Link a los distintos tutoriales que seguí para hacerlo</a>.</p>
+<p>AHora si adjunto foto de mi cuenta con el doble factor de autenticación activado.</p>
+<p><img alt="5" src="../includes/images/5.png" /></p>
+<h2 id="uso-social-de-github">Uso social de github</h2>
+<p>Busco en la lupa el nombre de mis compañeros y les sigo.</p>
+<p><img alt="6" src="../includes/images/6.png" /></p>
+<p>Seguir los repositorios y darle una estrella:</p>
+<p><img alt="7" src="../includes/images/7.png" /></p>
+<p><img alt="8" src="../includes/images/8.png" /></p>
+<h2 id="crear-una-tabla">Crear una tabla</h2>
+<p>Para ello debemos usar markdown. El formato es simple | para separar columnas y - para las filas.</p>
+<p><img alt="9" src="../includes/images/9.png" /></p>
+<h2 id="colaboradores">Colaboradores</h2>
+<p>Para añadir colaboradores debemos de ir a ajustes, a colaboradores y añadir el nombre de usuario de la persona que queremos añadir.</p>
+<p><img alt="10" src="../includes/images/10.png" /></p>
+<h2 id="crea-una-rama-v02">Crea una rama v0.2</h2>
+<p>Para ello debemos de usar el comando <code>git checkout -b v0.2</code></p>
+<p><img alt="11" src="../includes/images/11.png" /></p>
+<h2 id="anadir-fichero-2txt-y-creamos-la-rama-remota">Añadir fichero 2.txt y creamos la rama remota</h2>
+<p>Creamos el fichero 2.txt y lo añadimos al repositorio. Creamos la rama remota con el comando <code>git push -u origin v0.2</code></p>
+<p><img alt="12" src="../includes/images/12.png" /></p>
+<h2 id="merge-directo">Merge directo</h2>
+<p>Para hacer un merge directo debemos de ir a la rama master y hacer el comando <code>git merge v0.2</code></p>
+<p><img alt="13" src="../includes/images/13.png" /></p>
+<h2 id="merge-con-conflicto">Merge con conflicto</h2>
+<p>Crearemos un conflicto en el fichero 1.txt. Para ello, escribimos Hola en la rama master y Adios en la rama v0.2. Ahora debemos de hacer un commit y acto seguido
+un merge. Al hacer el merge nos saldrá un conflicto. </p>
+<p>Creación del conflicto:</p>
+<p><img alt="14" src="../includes/images/14.png" /></p>
+<p><img alt="15" src="../includes/images/15.png" /></p>
+<p>Merge con conflicto:</p>
+<p><img alt="16" src="../includes/images/16.png" /></p>
+<h2 id="listado-de-ramas">Listado de ramas</h2>
+<p>Para listar las ramas debemos de usar el comando <code>git branch --merged</code> para ver las ramas que han sido fusionadas y <code>git branch --no-merged</code> para ver las que no han sido fusionadas.</p>
+<p><img alt="18" src="../includes/images/18.png" /></p>
+<h2 id="arreglar-el-conflicto">Arreglar el conflicto</h2>
+<p>Para arreglar el conflicto debemos de abrir el fichero con conflicto y borrar las lineas que no queremos. Una vez hecho esto debemos de hacer un commit y un push.</p>
+<p><img alt="19" src="../includes/images/19.png" /></p>
+<h2 id="borrar-rama">Borrar rama</h2>
+<p>Primero creamos un tag con el comando <code>git tag v0.2</code> y luego borramos la rama con el comando <code>git branch -D v0.2</code></p>
+<p><img alt="20" src="../includes/images/20.png" /></p>
+<h2 id="listado-de-cambios">Listado de cambios</h2>
+<p>Para ver los cambios que se han hecho en el repositorio debemos de usar el comando <code>git log --oneline</code> con más opciones como <code>--graph</code> o <code>--decorate</code> para verlo de una forma más visual.</p>
+<p><img alt="21" src="../includes/images/21.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f13b1293.min.js"></script>
+      
+    
+  </body>
+</html>
